@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="cart-items">
+            <h2>Your Cart</h2>
+            <!-- List cart items here -->
+            <ul id="cart-list"></ul>
+        </section>
+        <section id="checkout">
+            <h2>Total: $<span id="total-amount">0.00</span></h2>
+            <button onclick="checkout()">Purchase</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My E-commerce App</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

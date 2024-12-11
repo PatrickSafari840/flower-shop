@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('nature.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 3em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+}
+
+h2 {
+    color: #333;
+}
+
+#hero {
+    background-color: #5c813a;
+    padding: 3em;
+    text-align: center;
+     
+}
+
+#categories, #featured-products, #testimonials {
+    margin: 2em 0;
+}
+
+footer {
+    background-color: #5c813a;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
